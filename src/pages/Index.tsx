@@ -70,7 +70,7 @@ const TABS = ["Лучшее", "Новинки", "Лайки"];
 const GENRES = ["Все", "Аркада", "Головоломка", "Экшн", "Стратегия", "Гонки", "РПГ", "Шутер", "Спорт"];
 
 function cardHeight(span: Game["span"]) {
-  return { tall: 280, wide: 160, normal: 185, large: 240 }[span];
+  return { tall: 380, wide: 220, normal: 260, large: 320 }[span];
 }
 
 function GameCard({ game, delay }: { game: Game; delay: number }) {
@@ -171,7 +171,7 @@ const Index = () => {
     <div className="flex h-screen bg-white overflow-hidden">
 
       {/* ── SIDEBAR ───────────────────────────────────────────── */}
-      <aside className="flex flex-col h-full shrink-0 overflow-y-auto" style={{ width: 200, borderRight: "1px solid #f0f0f0" }}>
+      <aside className="flex flex-col h-full shrink-0 overflow-y-auto" style={{ width: 240, borderRight: "1px solid #f0f0f0" }}>
         <div className="px-4 py-5">
           <span className="text-base font-bold text-gray-900">🎮 GameHub</span>
         </div>
