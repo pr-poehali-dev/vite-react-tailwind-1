@@ -216,7 +216,7 @@ const Index = () => {
   }
 
   return (
-    <div className="flex h-screen overflow-hidden" style={{ background: "var(--paper)" }}>
+    <div className="flex h-screen overflow-hidden" style={{ background: "var(--paper)", maxWidth: 1080, margin: "0 auto" }}>
 
       {/* ── SIDEBAR ─────────────────────────────────────────────── */}
       <aside
